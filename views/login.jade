@@ -1,0 +1,25 @@
+html
+  head
+    link(rel="stylesheet" href="")
+    meta(charset="utf-8")
+    title ChaChing Shopify App
+    meta(name="description" content="Shopify Application to play a sound everytime you make a sale!")
+    meta(name="author" content="emars")
+    meta(name="viewport" content="width=device-width, initial-scale=1")
+    link(href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet")
+    link(rel="stylesheet" href="/stylesheets/normalize.css")
+    link(rel="stylesheet" href="/stylesheets/skeleton.css")
+    link(rel="stylesheet" href="/stylesheets/custom.css")
+  body
+    .container
+      .row
+        h1.title ChaChing!
+      .row
+        h3.subtitle 
+          span Play a sound every time you make a sale!
+
+        form(method="POST", action="/login/authenticate", class="form-search")
+          .row
+            input(type="text", name="shop", id="shop", placeholder="Store Name", class="u-full-width")
+          .row.centered
+            input(type="submit", value="Install" id="install-button")

@@ -1,0 +1,27 @@
+{
+  "name": "nodify_sample_app",
+  "version": "0.0.1",
+  "private": true,
+  "dependencies": {
+    "body-parser": "1.14.x",
+    "cookie-parser": "1.4.x",
+    "express": "~4.13.3",
+    "express-session": "1.12.x",
+    "jade": ">=1.11.0",
+    "method-override": "2.3.x",
+    "nodify-shopify": "git://github.com/Shopfrogs/Nodify.git",
+    "ws": "^1.0.1"
+  },
+  "scripts": {
+    "test": "cake test",
+    "preinstall": "rm -rf node_modules"
+  },
+  "engines": {
+    "node": "4.2.3"
+  },
+  "devDependencies": {
+    "mocha": "2.3.4",
+    "should": "8.0.2",
+    "coffee-script": "1.10.0"
+  }
+}

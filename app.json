@@ -1,0 +1,7 @@
+{
+  "name": "ChaChing App",
+  "description": "Simple shopify app to play a sound on order",
+  "repository": "https://github.com/emars/ChaChing",
+  "logo": "https://node-js-sample.herokuapp.com/node.png",
+  "keywords": ["shopify", "webhook", "sound"]
+}
